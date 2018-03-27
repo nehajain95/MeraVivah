@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cic.meravivah" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Mydetails"
+            android:label="My Details"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Mylocation"
+            android:label="My Location"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Mycareer"
+            android:label="My Career"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
